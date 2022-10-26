@@ -1,0 +1,39 @@
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    background-color: #f6f6f6;
+  }/* Spacing */
+  td, th {
+    border: 1px solid #999;
+    padding: 20px;
+  }
+  th {
+    background: rgb(71, 101, 139);
+    color: white;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input{
+    width: 40px;
+    /* height: 15px; */
+}
+
+body{
+    background-color: rgb(33, 42, 57);
+}
