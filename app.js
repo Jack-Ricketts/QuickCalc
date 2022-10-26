@@ -8,8 +8,6 @@ let calc = document.getElementById("calc");
 let total = document.getElementById("total");
 let profit = document.getElementById("profit");
 
-console.log(ltprice.value == "");
-
 calc.addEventListener("click", () => {
   if (!(ltprice.value == "") && !(bid.value == "") && !(shipping.value == "")) {
     ukprice.innerHTML = ltprice.value * rate.value + " £";
@@ -24,6 +22,6 @@ calc.addEventListener("click", () => {
 
     profit.innerHTML = Math.round(Number(ltprice.value - gpbToEur)) + " €";
   } else {
-    profit.innerHTML = "Neivedei";
+    profit.innerHTML = "Missing values";
   }
 });
